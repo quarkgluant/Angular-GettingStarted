@@ -5,9 +5,9 @@ import {Component} from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Angular: Getting Started';
-}
+// export class AppComponent {
+//   title = 'Angular: Getting Started';
+// }
 
 // import { Component } from '@angular/core'
 // @Component({
@@ -19,6 +19,6 @@ export class AppComponent {
 //   `
 // })
 
-// export class AppComponent {
-//   pageTitle: string = 'Acme Product Management'
-// }
+export class AppComponent {
+  pageTitle: string = 'Acme Product Management';
+}
